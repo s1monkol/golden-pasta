@@ -5,7 +5,7 @@ export default function HeroHome() {
     <section id="home" className="relative min-h-screen overflow-hidden bg-[#006B43]">
       <div className="hero-banner-delay absolute inset-0">
         <Image
-          src="/images/header_banner_3.png"
+          src="/images/header_banner.png"
           alt="Golden Pasta"
           fill
           priority
