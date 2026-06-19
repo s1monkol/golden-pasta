@@ -11,7 +11,6 @@ const products = [
     weight: "400 г",
     image: "/images/Packs/Golden Pasta_Spaghetti_2.png",
   },
-
   {
     title: "Big Shells / Великі мушлі",
     weight: "400 г",
@@ -81,19 +80,19 @@ export default function ProductCatalog() {
           </h2>
         </div>
 
-        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           {products.map((product) => (
             <article
               key={product.title}
               className="group overflow-hidden rounded-3xl bg-white shadow-lg transition duration-300 hover:-translate-y-2 hover:shadow-2xl"
             >
-              <div className="relative flex h-[280px] items-center justify-center bg-[#FFE8A8] p-6">
+              <div className="relative flex h-[340px] items-center justify-center bg-[#FFE8A8] p-4">
                 <Image
                   src={product.image}
                   alt={product.title}
-                  width={220}
-                  height={240}
-                  className="max-h-[240px] w-auto object-contain transition duration-500 group-hover:scale-105"
+                  width={300}
+                  height={320}
+                  className="max-h-[300px] w-auto object-contain transition duration-500 group-hover:scale-110"
                 />
               </div>
 
@@ -109,12 +108,53 @@ export default function ProductCatalog() {
                 </p>
 
                 <p className="text-sm leading-relaxed text-stone-600">
-                  Борошно з твердої пшениці вищого сорту, вода питна. Без
-                  харчових добавок і барвників.
+                  Виготовлено з добірної пшениці твердих сортів для
+                  бездоганного смаку та ідеальної текстури.
                 </p>
               </div>
             </article>
           ))}
+        </div>
+
+        <div className="mt-16 rounded-3xl bg-white p-8 shadow-xl">
+          <h3 className="mb-6 text-3xl font-bold text-[#D88400]">
+            Склад та харчова цінність
+          </h3>
+
+          <p className="mb-6 text-stone-700">
+            Борошно з твердої пшениці вищого сорту (дурум) для макаронних
+            виробів (містить глютен), вода питна. Без харчових добавок і
+            барвників.
+          </p>
+
+          <div className="grid gap-8 md:grid-cols-2">
+            <div>
+              <h4 className="mb-3 font-semibold text-[#3B2F2F]">
+                Харчова цінність на 100 г
+              </h4>
+
+              <ul className="space-y-2 text-stone-700">
+                <li>Білки — 11,5 г</li>
+                <li>Жири — 1,5 г</li>
+                <li>з них насичені — 0,3 г</li>
+                <li>Вуглеводи — 74 г</li>
+                <li>з них цукор — 2,2 г</li>
+                <li>Сіль — 0,004 г</li>
+                <li>358 ккал / 1498,8 кДж</li>
+              </ul>
+            </div>
+
+            <div>
+              <h4 className="mb-3 font-semibold text-[#3B2F2F]">
+                Додаткова інформація
+              </h4>
+
+              <ul className="space-y-2 text-stone-700">
+                <li>Строк придатності — 24 місяці від дати виготовлення</li>
+                <li>Стандарт — ДСТУ 7043:2020</li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </section>
