@@ -5,56 +5,78 @@ const products = [
     title: "Linguine / Лінгвіні",
     weight: "400 г",
     image: "/images/Packs/Golden Pasta_LINGUINI_3.png",
+    description:
+      "Традиційна довга паста, яка чудово поєднується з морепродуктами, вершковими соусами та свіжою зеленню. Ідеальний вибір для легкої сімейної вечері.",
   },
   {
     title: "Spaghetti / Спагетті",
     weight: "400 г",
     image: "/images/Packs/Golden Pasta_Spaghetti_2.png",
+    description:
+      "Справжня класика італійської кухні. Прекрасно смакують із соусом Болоньєзе, томатними соусами та улюбленими домашніми рецептами.",
   },
   {
     title: "Big Shells / Великі мушлі",
     weight: "400 г",
     image: "/images/Packs/GoldenPasta_BigShells.png",
+    description:
+      "Великі мушлі ніби створені для густих соусів і запечених страв. Особливо смакують із сиром, овочами або м'ясною начинкою.",
   },
   {
     title: "Charleston / Чарльстон",
     weight: "400 г",
     image: "/images/Packs/GoldenPasta_Charleston.png",
+    description:
+      "Оригінальна форма пасти, яка додає особливого настрою кожній страві. Добре поєднується з ніжними вершковими соусами та овочами.",
   },
   {
     title: "Creste di Gallo / Гребінці",
     weight: "400 г",
     image: "/images/Packs/GoldenPasta_Creste-di-gallo.png",
+    description:
+      "Завдяки своїй рифленій формі чудово утримують соус. Ідеально підходять для насичених м'ясних страв і домашніх рагу.",
   },
   {
     title: "Elbow Rigati / Ріжки рифлені",
     weight: "400 г",
     image: "/images/Packs/GoldenPasta_Elbow-rigati.png",
+    description:
+      "Улюблена форма для сімейних обідів. Чудово поєднується із сиром, тушкованим м'ясом та овочевими соусами.",
   },
   {
     title: "Farfalle / Фарфале",
     weight: "400 г",
     image: "/images/Packs/GoldenPasta_Farfalle.png",
+    description:
+      "Відомі як «метелики». Легкі, красиві та святкові — прекрасно смакують у салатах, з овочами та ніжними соусами.",
   },
   {
     title: "Fiori / Фіорі",
     weight: "400 г",
     image: "/images/Packs/GoldenPasta_Fiori.png",
+    description:
+      "Паста у формі квітів, яка додає яскравих барв до столу. Особливо подобається дітям і чудово поєднується з легкими вершковими соусами.",
   },
   {
     title: "Fusilli / Фузілі",
     weight: "400 г",
     image: "/images/Packs/GoldenPasta_Fusilli.png",
+    description:
+      "Спіральки, які чудово вбирають соус у кожен виток. Ідеально підходять до Болоньєзе, страв із м'яса, овочів та ароматного песто.",
   },
   {
     title: "Lumachine / Лумакині",
     weight: "400 г",
     image: "/images/Packs/GoldenPasta_Lumachine.png",
+    description:
+      "Невеликі мушлі для затишних домашніх страв. Смакують із легкими соусами, овочами та наваристими супами.",
   },
   {
     title: "Penne / Пене",
     weight: "400 г",
     image: "/images/Packs/GoldenPasta_Penne.png",
+    description:
+      "Одна з найпопулярніших форм пасти у світі. Чудово поєднується з томатними, сирними та вершковими соусами, роблячи кожну страву по-справжньому домашньою.",
   },
 ];
 
@@ -103,13 +125,12 @@ export default function ProductCatalog() {
                   {product.title}
                 </h3>
 
-                <p className="mb-2 text-sm text-stone-700">
+                <p className="mb-3 text-sm text-stone-700">
                   Упаковка: <strong>{product.weight}</strong>
                 </p>
 
                 <p className="text-sm leading-relaxed text-stone-600">
-                  Виготовлено з добірної пшениці твердих сортів для
-                  бездоганного смаку та ідеальної текстури.
+                  {product.description}
                 </p>
               </div>
             </article>
