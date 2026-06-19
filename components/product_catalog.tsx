@@ -94,7 +94,7 @@ export default function ProductCatalog() {
       <div className="relative z-10 mx-auto max-w-7xl px-6">
         <div className="mb-12 text-center">
           <p className="mb-3 text-lg font-semibold text-red-600">
-            Golden Pasta
+           
           </p>
 
           <h2 className="text-4xl font-bold text-[#3B2F2F]">
