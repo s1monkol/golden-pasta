@@ -11,11 +11,7 @@ const products = [
     weight: "400 г",
     image: "/images/Packs/Golden Pasta_Spaghetti_2.png",
   },
-  {
-    title: "Spaghetti №1 / Спагетті №1",
-    weight: "400 г",
-    image: "/images/Packs/Golden Pasta_SpaghettiN1-flag.png",
-  },
+
   {
     title: "Big Shells / Великі мушлі",
     weight: "400 г",
