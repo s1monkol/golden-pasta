@@ -5,6 +5,7 @@ export const metadata = {
 
 
 import Hero from "@/components/hero-home";
+import HomeNavigation from "@/components/home_navigation";
 import ProductCatalog from "@/components/product_catalog";
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
     <>
       
       <Hero />
+      <HomeNavigation />
       <ProductCatalog />
     </>
   );
