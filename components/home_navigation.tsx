@@ -11,33 +11,35 @@ export default function HomeNavigation() {
         "
       />
 
-      <div className="relative z-10 mx-auto flex max-w-7xl items-center justify-between gap-4 px-6">
-        <div>
-          <p className="text-xs font-semibold text-[#F5B400]">
-            Golden Pasta
-          </p>
+      <div className="relative z-10 mx-auto max-w-7xl px-4">
+        <div className="flex flex-col items-center gap-3 text-center">
+          <div>
+            <p className="text-xs font-semibold text-[#F5B400]">
+              Golden Pasta
+            </p>
 
-          <h2 className="text-xl font-bold">
-            Оберіть, що вас цікавить
-          </h2>
-        </div>
+            <h2 className="text-lg font-bold md:text-xl">
+              Оберіть, що вас цікавить
+            </h2>
+          </div>
 
-        <div className="flex gap-3">
-          <Link
-            href="/recipes"
-            className="rounded-full bg-white px-5 py-2 text-sm font-bold text-[#7A1118] shadow-lg transition hover:bg-[#F5B400]"
-          >
-            Наші рецепти
-          </Link>
+          <div className="flex flex-wrap justify-center gap-3">
+            <Link
+              href="/recipes"
+              className="rounded-full bg-white px-5 py-2 text-sm font-bold text-[#7A1118] shadow-lg transition hover:bg-[#F5B400]"
+            >
+              Наші рецепти
+            </Link>
 
-          <a
-            href="https://tavriav.zakaz.ua/ru/categories/pasta-tavriav/tm=golden-pasta/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="rounded-full bg-[#F5B400] px-5 py-2 text-sm font-bold text-[#3B2F2F] shadow-lg transition hover:bg-white"
-          >
-            Купити продукцію
-          </a>
+            <a
+              href="https://tavriav.zakaz.ua/ru/categories/pasta-tavriav/tm=golden-pasta/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="rounded-full bg-[#F5B400] px-5 py-2 text-sm font-bold text-[#3B2F2F] shadow-lg transition hover:bg-white"
+            >
+              Купити продукцію
+            </a>
+          </div>
         </div>
       </div>
     </section>
