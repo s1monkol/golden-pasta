@@ -137,46 +137,50 @@ export default function ProductCatalog() {
           ))}
         </div>
 
-        <div className="mt-16 rounded-3xl bg-white p-8 shadow-xl">
-          <h3 className="mb-6 text-3xl font-bold text-[#D88400]">
-            Склад та харчова цінність
-          </h3>
+  <div
+  data-aos="fade-up"
+  data-aos-duration="800"
+  className="mt-16 rounded-3xl bg-white p-8 shadow-xl transition-all duration-500 hover:-translate-y-2 hover:scale-[1.01] hover:shadow-2xl"
+>
+  <h3 className="mb-6 text-3xl font-bold text-[#D88400]">
+    Склад та харчова цінність
+  </h3>
 
-          <p className="mb-6 text-stone-700">
-            Борошно з твердої пшениці вищого сорту (дурум) для макаронних
-            виробів (містить глютен), вода питна. Без харчових добавок і
-            барвників.
-          </p>
+  <p className="mb-6 text-stone-700">
+    Борошно з твердої пшениці вищого сорту (дурум) для макаронних
+    виробів (містить глютен), вода питна. Без харчових добавок і
+    барвників.
+  </p>
 
-          <div className="grid gap-8 md:grid-cols-2">
-            <div>
-              <h4 className="mb-3 font-semibold text-[#3B2F2F]">
-                Харчова цінність на 100 г
-              </h4>
+  <div className="grid gap-8 md:grid-cols-2">
+    <div>
+      <h4 className="mb-3 font-semibold text-[#3B2F2F]">
+        Харчова цінність на 100 г
+      </h4>
 
-              <ul className="space-y-2 text-stone-700">
-                <li>Білки — 11,5 г</li>
-                <li>Жири — 1,5 г</li>
-                <li>з них насичені — 0,3 г</li>
-                <li>Вуглеводи — 74 г</li>
-                <li>з них цукор — 2,2 г</li>
-                <li>Сіль — 0,004 г</li>
-                <li>358 ккал / 1498,8 кДж</li>
-              </ul>
-            </div>
+      <ul className="space-y-2 text-stone-700">
+        <li>Білки — 11,5 г</li>
+        <li>Жири — 1,5 г</li>
+        <li>з них насичені — 0,3 г</li>
+        <li>Вуглеводи — 74 г</li>
+        <li>з них цукор — 2,2 г</li>
+        <li>Сіль — 0,004 г</li>
+        <li>358 ккал / 1498,8 кДж</li>
+      </ul>
+    </div>
 
-            <div>
-              <h4 className="mb-3 font-semibold text-[#3B2F2F]">
-                Додаткова інформація
-              </h4>
+    <div>
+      <h4 className="mb-3 font-semibold text-[#3B2F2F]">
+        Додаткова інформація
+      </h4>
 
-              <ul className="space-y-2 text-stone-700">
-                <li>Строк придатності — 24 місяці від дати виготовлення</li>
-                <li>Стандарт — ДСТУ 7043:2020</li>
-              </ul>
-            </div>
-          </div>
-        </div>
+      <ul className="space-y-2 text-stone-700">
+        <li>Строк придатності — 24 місяці від дати виготовлення</li>
+        <li>Стандарт — ДСТУ 7043:2020</li>
+      </ul>
+    </div>
+  </div>
+</div>
       </div>
     </section>
   );
