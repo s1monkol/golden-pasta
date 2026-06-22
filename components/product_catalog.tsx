@@ -23,7 +23,7 @@ const products = [
       "Великі мушлі ніби створені для густих соусів і запечених страв. Особливо смакують із сиром, овочами або м'ясною начинкою.",
   },
   {
-    title: "Charleston / Чарльстон",
+    title: "Charleston / Ріжки",
     weight: "400 г",
     image: "/images/Packs/GoldenPasta_Charleston.png",
     description:
@@ -44,35 +44,35 @@ const products = [
       "Улюблена форма для сімейних обідів. Чудово поєднується із сиром, тушкованим м'ясом та овочевими соусами.",
   },
   {
-    title: "Farfalle / Фарфале",
+    title: "Farfalle / Метелики",
     weight: "400 г",
     image: "/images/Packs/GoldenPasta_Farfalle.png",
     description:
       "Відомі як «метелики». Легкі, красиві та святкові — прекрасно смакують у салатах, з овочами та ніжними соусами.",
   },
   {
-    title: "Fiori / Фіорі",
+    title: "Fiori / Квіточки",
     weight: "400 г",
     image: "/images/Packs/GoldenPasta_Fiori.png",
     description:
       "Паста у формі квітів, яка додає яскравих барв до столу. Особливо подобається дітям і чудово поєднується з легкими вершковими соусами.",
   },
   {
-    title: "Fusilli / Фузілі",
+    title: "Fusilli / Спіральки",
     weight: "400 г",
     image: "/images/Packs/GoldenPasta_Fusilli.png",
     description:
       "Спіральки, які чудово вбирають соус у кожен виток. Ідеально підходять до Болоньєзе, страв із м'яса, овочів та ароматного песто.",
   },
   {
-    title: "Lumachine / Лумакині",
+    title: "Lumachine / Мала мушля",
     weight: "400 г",
     image: "/images/Packs/GoldenPasta_Lumachine.png",
     description:
       "Невеликі мушлі для затишних домашніх страв. Смакують із легкими соусами, овочами та наваристими супами.",
   },
   {
-    title: "Penne / Пене",
+    title: "Penne / Пір'я",
     weight: "400 г",
     image: "/images/Packs/GoldenPasta_Penne.png",
     description:
