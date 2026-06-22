@@ -137,10 +137,10 @@ export default function ProductCatalog() {
           ))}
         </div>
 
-  <div
+ <div
   data-aos="fade-up"
-  data-aos-duration="800"
-  className="mt-16 rounded-3xl bg-white p-8 shadow-xl transition-all duration-500 hover:-translate-y-2 hover:scale-[1.01] hover:shadow-2xl"
+  data-aos-duration="1200"
+  className="mt-16 rounded-3xl bg-white p-8 shadow-xl transition-all duration-700 ease-out hover:-translate-y-1 hover:scale-[1.005] hover:shadow-2xl"
 >
   <h3 className="mb-6 text-3xl font-bold text-[#D88400]">
     Склад та харчова цінність
