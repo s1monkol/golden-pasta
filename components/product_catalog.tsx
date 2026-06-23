@@ -5,6 +5,7 @@ const products = [
     title: "Linguine / Лінгвіні",
     weight: "400 г",
     image: "/images/Packs/Golden Pasta_LINGUINI_3.png",
+    buyUrl: "#",
     description:
       "Традиційна довга паста, яка чудово поєднується з морепродуктами, вершковими соусами та свіжою зеленню. Ідеальний вибір для легкої сімейної вечері.",
   },
@@ -12,6 +13,7 @@ const products = [
     title: "Spaghetti / Спагетті",
     weight: "400 г",
     image: "/images/Packs/Golden Pasta_Spaghetti_2.png",
+    buyUrl: "#",
     description:
       "Справжня класика італійської кухні. Прекрасно смакують із соусом Болоньєзе, томатними соусами та улюбленими домашніми рецептами.",
   },
@@ -19,6 +21,7 @@ const products = [
     title: "Big Shells / Великі мушлі",
     weight: "400 г",
     image: "/images/Packs/GoldenPasta_BigShells.png",
+    buyUrl: "#",
     description:
       "Великі мушлі ніби створені для густих соусів і запечених страв. Особливо смакують із сиром, овочами або м'ясною начинкою.",
   },
@@ -26,6 +29,7 @@ const products = [
     title: "Charleston / Ріжки",
     weight: "400 г",
     image: "/images/Packs/GoldenPasta_Charleston.png",
+    buyUrl: "#",
     description:
       "Оригінальна форма пасти, яка додає особливого настрою кожній страві. Добре поєднується з ніжними вершковими соусами та овочами.",
   },
@@ -33,6 +37,7 @@ const products = [
     title: "Creste di Gallo / Гребінці",
     weight: "400 г",
     image: "/images/Packs/GoldenPasta_Creste-di-gallo.png",
+    buyUrl: "#",
     description:
       "Завдяки своїй рифленій формі чудово утримують соус. Ідеально підходять для насичених м'ясних страв і домашніх рагу.",
   },
@@ -40,6 +45,7 @@ const products = [
     title: "Elbow Rigati / Ріжки рифлені",
     weight: "400 г",
     image: "/images/Packs/GoldenPasta_Elbow-rigati.png",
+    buyUrl: "#",
     description:
       "Улюблена форма для сімейних обідів. Чудово поєднується із сиром, тушкованим м'ясом та овочевими соусами.",
   },
@@ -47,6 +53,7 @@ const products = [
     title: "Farfalle / Метелики",
     weight: "400 г",
     image: "/images/Packs/GoldenPasta_Farfalle.png",
+    buyUrl: "#",
     description:
       "Відомі як «метелики». Легкі, красиві та святкові — прекрасно смакують у салатах, з овочами та ніжними соусами.",
   },
@@ -54,6 +61,7 @@ const products = [
     title: "Fiori / Квіточки",
     weight: "400 г",
     image: "/images/Packs/GoldenPasta_Fiori.png",
+    buyUrl: "#",
     description:
       "Паста у формі квітів, яка додає яскравих барв до столу. Особливо подобається дітям і чудово поєднується з легкими вершковими соусами.",
   },
@@ -61,6 +69,7 @@ const products = [
     title: "Fusilli / Спіральки",
     weight: "400 г",
     image: "/images/Packs/GoldenPasta_Fusilli.png",
+    buyUrl: "#",
     description:
       "Спіральки, які чудово вбирають соус у кожен виток. Ідеально підходять до Болоньєзе, страв із м'яса, овочів та ароматного песто.",
   },
@@ -68,6 +77,7 @@ const products = [
     title: "Lumachine / Мала мушля",
     weight: "400 г",
     image: "/images/Packs/GoldenPasta_Lumachine.png",
+    buyUrl: "#",
     description:
       "Невеликі мушлі для затишних домашніх страв. Смакують із легкими соусами, овочами та наваристими супами.",
   },
@@ -75,6 +85,7 @@ const products = [
     title: "Penne / Пір'я",
     weight: "400 г",
     image: "/images/Packs/GoldenPasta_Penne.png",
+    buyUrl: "#",
     description:
       "Одна з найпопулярніших форм пасти у світі. Чудово поєднується з томатними, сирними та вершковими соусами, роблячи кожну страву по-справжньому домашньою.",
   },
@@ -93,9 +104,7 @@ export default function ProductCatalog() {
 
       <div className="relative z-10 mx-auto max-w-7xl px-6">
         <div className="mb-12 text-center">
-          <p className="mb-3 text-lg font-semibold text-red-600">
-           
-          </p>
+          <p className="mb-3 text-lg font-semibold text-red-600"></p>
 
           <h2 className="text-4xl font-bold text-[#3B2F2F]">
             Наша продукція
@@ -118,7 +127,7 @@ export default function ProductCatalog() {
                 />
               </div>
 
-              <div className="p-6">
+              <div className="flex h-full flex-col p-6">
                 <p className="mb-2 text-sm text-stone-500">Golden Pasta</p>
 
                 <h3 className="mb-4 text-2xl font-bold text-[#D88400]">
@@ -132,55 +141,71 @@ export default function ProductCatalog() {
                 <p className="text-sm leading-relaxed text-stone-600">
                   {product.description}
                 </p>
+
+                <a
+                  href={product.buyUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-6 inline-flex w-fit items-center gap-3 rounded-full bg-red-600 px-6 py-3 text-sm font-bold text-white shadow-lg transition-all duration-300 hover:scale-105 hover:bg-[#F5B400] hover:text-[#3B2F2F] hover:shadow-xl"
+                >
+                  <Image
+                    src="/images/cart.svg"
+                    alt="Cart"
+                    width={20}
+                    height={20}
+                    className="transition-transform duration-300 group-hover:rotate-[-8deg] group-hover:scale-110"
+                  />
+                  Купити
+                </a>
               </div>
             </article>
           ))}
         </div>
 
- <div
-  data-aos="fade-up"
-  data-aos-duration="1200"
-  className="mt-16 rounded-3xl bg-white p-8 shadow-xl transition-all duration-700 ease-out hover:-translate-y-1 hover:scale-[1.005] hover:shadow-2xl"
->
-  <h3 className="mb-6 text-3xl font-bold text-[#D88400]">
-    Склад та харчова цінність
-  </h3>
+        <div
+          data-aos="fade-up"
+          data-aos-duration="1200"
+          className="mt-16 rounded-3xl bg-white p-8 shadow-xl transition-all duration-700 ease-out hover:-translate-y-1 hover:scale-[1.005] hover:shadow-2xl"
+        >
+          <h3 className="mb-6 text-3xl font-bold text-[#D88400]">
+            Склад та харчова цінність
+          </h3>
 
-  <p className="mb-6 text-stone-700">
-    Борошно з твердої пшениці вищого сорту (дурум) для макаронних
-    виробів (містить глютен), вода питна. Без харчових добавок і
-    барвників.
-  </p>
+          <p className="mb-6 text-stone-700">
+            Борошно з твердої пшениці вищого сорту (дурум) для макаронних
+            виробів (містить глютен), вода питна. Без харчових добавок і
+            барвників.
+          </p>
 
-  <div className="grid gap-8 md:grid-cols-2">
-    <div>
-      <h4 className="mb-3 font-semibold text-[#3B2F2F]">
-        Харчова цінність на 100 г
-      </h4>
+          <div className="grid gap-8 md:grid-cols-2">
+            <div>
+              <h4 className="mb-3 font-semibold text-[#3B2F2F]">
+                Харчова цінність на 100 г
+              </h4>
 
-      <ul className="space-y-2 text-stone-700">
-        <li>Білки — 11,5 г</li>
-        <li>Жири — 1,5 г</li>
-        <li>з них насичені — 0,3 г</li>
-        <li>Вуглеводи — 74 г</li>
-        <li>з них цукор — 2,2 г</li>
-        <li>Сіль — 0,004 г</li>
-        <li>358 ккал / 1498,8 кДж</li>
-      </ul>
-    </div>
+              <ul className="space-y-2 text-stone-700">
+                <li>Білки — 11,5 г</li>
+                <li>Жири — 1,5 г</li>
+                <li>з них насичені — 0,3 г</li>
+                <li>Вуглеводи — 74 г</li>
+                <li>з них цукор — 2,2 г</li>
+                <li>Сіль — 0,004 г</li>
+                <li>358 ккал / 1498,8 кДж</li>
+              </ul>
+            </div>
 
-    <div>
-      <h4 className="mb-3 font-semibold text-[#3B2F2F]">
-        Додаткова інформація
-      </h4>
+            <div>
+              <h4 className="mb-3 font-semibold text-[#3B2F2F]">
+                Додаткова інформація
+              </h4>
 
-      <ul className="space-y-2 text-stone-700">
-        <li>Строк придатності — 24 місяці від дати виготовлення</li>
-        <li>Стандарт — ДСТУ 7043:2020</li>
-      </ul>
-    </div>
-  </div>
-</div>
+              <ul className="space-y-2 text-stone-700">
+                <li>Строк придатності — 24 місяці від дати виготовлення</li>
+                <li>Стандарт — ДСТУ 7043:2020</li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );
