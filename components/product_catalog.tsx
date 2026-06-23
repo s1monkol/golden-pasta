@@ -5,7 +5,7 @@ const products = [
     title: "Linguine / Лінгвіні",
     weight: "400 г",
     image: "/images/Packs/Golden Pasta_LINGUINI_3.png",
-    buyUrl: "#",
+    buyUrl: "https://tavriav.zakaz.ua/ru/products/makaroni-golden-pasta-400g-ukrayina--04820044844226/",
     description:
       "Традиційна довга паста, яка чудово поєднується з морепродуктами, вершковими соусами та свіжою зеленню. Ідеальний вибір для легкої сімейної вечері.",
   },
@@ -13,7 +13,7 @@ const products = [
     title: "Spaghetti / Спагетті",
     weight: "400 г",
     image: "/images/Packs/Golden Pasta_Spaghetti_2.png",
-    buyUrl: "#",
+    buyUrl: "https://tavriav.zakaz.ua/ru/products/makaroni-400g--04820044843281/",
     description:
       "Справжня класика італійської кухні. Прекрасно смакують із соусом Болоньєзе, томатними соусами та улюбленими домашніми рецептами.",
   },
@@ -21,7 +21,7 @@ const products = [
     title: "Big Shells / Великі мушлі",
     weight: "400 г",
     image: "/images/Packs/GoldenPasta_BigShells.png",
-    buyUrl: "#",
+    buyUrl: "https://tavriav.zakaz.ua/ru/products/makaroni-golden-pasta-400g--04820044843243/",
     description:
       "Великі мушлі ніби створені для густих соусів і запечених страв. Особливо смакують із сиром, овочами або м'ясною начинкою.",
   },
@@ -29,7 +29,7 @@ const products = [
     title: "Charleston / Ріжки",
     weight: "400 г",
     image: "/images/Packs/GoldenPasta_Charleston.png",
-    buyUrl: "#",
+    buyUrl: "https://tavriav.zakaz.ua/ru/products/makaroni-400g--04820044843625/",
     description:
       "Оригінальна форма пасти, яка додає особливого настрою кожній страві. Добре поєднується з ніжними вершковими соусами та овочами.",
   },
@@ -37,7 +37,7 @@ const products = [
     title: "Creste di Gallo / Гребінці",
     weight: "400 г",
     image: "/images/Packs/GoldenPasta_Creste-di-gallo.png",
-    buyUrl: "#",
+    buyUrl: "https://tavriav.zakaz.ua/ru/products/makaroni-golden-pasta-400g-ukrayina--04820044844257/",
     description:
       "Завдяки своїй рифленій формі чудово утримують соус. Ідеально підходять для насичених м'ясних страв і домашніх рагу.",
   },
@@ -45,7 +45,7 @@ const products = [
     title: "Elbow Rigati / Ріжки рифлені",
     weight: "400 г",
     image: "/images/Packs/GoldenPasta_Elbow-rigati.png",
-    buyUrl: "#",
+    buyUrl: "https://tavriav.zakaz.ua/ru/products/makaroni-golden-pasta-400g-ukrayina--04820044843601/",
     description:
       "Улюблена форма для сімейних обідів. Чудово поєднується із сиром, тушкованим м'ясом та овочевими соусами.",
   },
@@ -53,7 +53,7 @@ const products = [
     title: "Farfalle / Метелики",
     weight: "400 г",
     image: "/images/Packs/GoldenPasta_Farfalle.png",
-    buyUrl: "#",
+    buyUrl: "https://tavriav.zakaz.ua/ru/products/makaroni-golden-pasta-400g--04820044843267/",
     description:
       "Відомі як «метелики». Легкі, красиві та святкові — прекрасно смакують у салатах, з овочами та ніжними соусами.",
   },
@@ -61,7 +61,7 @@ const products = [
     title: "Fiori / Квіточки",
     weight: "400 г",
     image: "/images/Packs/GoldenPasta_Fiori.png",
-    buyUrl: "#",
+    buyUrl: "https://obzhora.ua/product/makarony-golden-pasta-400h-fiori-novynka",
     description:
       "Паста у формі квітів, яка додає яскравих барв до столу. Особливо подобається дітям і чудово поєднується з легкими вершковими соусами.",
   },
@@ -69,7 +69,7 @@ const products = [
     title: "Fusilli / Спіральки",
     weight: "400 г",
     image: "/images/Packs/GoldenPasta_Fusilli.png",
-    buyUrl: "#",
+    buyUrl: "https://tavriav.zakaz.ua/ru/products/makaroni-400g--04820044843229/",
     description:
       "Спіральки, які чудово вбирають соус у кожен виток. Ідеально підходять до Болоньєзе, страв із м'яса, овочів та ароматного песто.",
   },
@@ -77,7 +77,7 @@ const products = [
     title: "Lumachine / Мала мушля",
     weight: "400 г",
     image: "/images/Packs/GoldenPasta_Lumachine.png",
-    buyUrl: "#",
+    buyUrl: "https://silpo.ua/product/vyroby-makaronni-golden-pasta-lumachine-960221",
     description:
       "Невеликі мушлі для затишних домашніх страв. Смакують із легкими соусами, овочами та наваристими супами.",
   },
@@ -85,7 +85,7 @@ const products = [
     title: "Penne / Пір'я",
     weight: "400 г",
     image: "/images/Packs/GoldenPasta_Penne.png",
-    buyUrl: "#",
+    buyUrl: "https://tavriav.zakaz.ua/ru/products/makaroni-golden-pasta-400g-ukrayina--04820044843366/",
     description:
       "Одна з найпопулярніших форм пасти у світі. Чудово поєднується з томатними, сирними та вершковими соусами, роблячи кожну страву по-справжньому домашньою.",
   },
