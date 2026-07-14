@@ -169,30 +169,56 @@ export default function ProductCatalog() {
 
                 <div className="mt-auto flex flex-wrap gap-3 pt-6">
                   <a
-  href={product.buyUrl}
-  target="_blank"
-  rel="noopener noreferrer"
-  className="group/buy inline-flex w-fit items-center gap-3 rounded-full bg-red-600 px-6 py-3 text-sm font-bold text-white shadow-lg transition-all duration-300 hover:scale-105 hover:bg-[#F5B400] hover:text-[#3B2F2F] hover:shadow-xl"
->
-  <Image
-    src="/images/cart.svg"
-    alt=""
-    width={20}
-    height={20}
-    className="transition-transform duration-300 group-hover/buy:rotate-[-8deg] group-hover/buy:scale-110"
-  />
-  Купити
-</a>
+                    href={product.buyUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="group/buy inline-flex w-fit items-center gap-3 rounded-full bg-red-600 px-6 py-3 text-sm font-bold text-white shadow-lg transition-all duration-300 hover:scale-105 hover:bg-[#F5B400] hover:text-[#3B2F2F] hover:shadow-xl"
+                  >
+                    <Image
+                      src="/images/cart.svg"
+                      alt="Cart"
+                      width={20}
+                      height={20}
+                      className="transition-transform duration-300 group-hover/buy:rotate-[-8deg] group-hover/buy:scale-110"
+                    />
+                    Купити
+                  </a>
 
-{product.recipeUrl && (
-  <Link
-    href={product.recipeUrl}
-    className="group/recipe inline-flex w-fit items-center gap-3 rounded-full bg-[#168447] px-6 py-3 text-sm font-bold text-white shadow-lg transition-all duration-300 hover:scale-105 hover:bg-[#0F6F3A] hover:shadow-xl"
-  >
-    {/* иконка */}
-    Рецепти
-  </Link>
-)}
+                  {product.recipeUrl && (
+                    <Link
+                      href={product.recipeUrl}
+                      className="group/recipe inline-flex w-fit items-center gap-3 rounded-full bg-[#168447] px-6 py-3 text-sm font-bold text-white shadow-lg transition-all duration-300 hover:scale-105 hover:bg-[#0F6F3A] hover:shadow-xl"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        className="h-5 w-5 transition-transform duration-300 group-hover/recipe:rotate-[-6deg] group-hover/recipe:scale-110"
+                      >
+                        <path
+                          d="M5 11h14l-1 4.5A3.2 3.2 0 0 1 14.9 18H9.1A3.2 3.2 0 0 1 6 15.5L5 11Z"
+                          stroke="currentColor"
+                          strokeWidth="1.8"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        />
+                        <path
+                          d="M8 8.5c.5-1.2 1.3-1.8 2.4-1.8 1.2 0 1.8.8 2.9.8 1 0 1.7-.6 2.2-1.5"
+                          stroke="currentColor"
+                          strokeWidth="1.8"
+                          strokeLinecap="round"
+                        />
+                        <path
+                          d="M8 21h8"
+                          stroke="currentColor"
+                          strokeWidth="1.8"
+                          strokeLinecap="round"
+                        />
+                      </svg>
+
+                      Рецепти
+                    </Link>
+                  )}
                 </div>
               </div>
             </article>
