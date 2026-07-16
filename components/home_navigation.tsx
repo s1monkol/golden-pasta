@@ -31,14 +31,14 @@ export default function HomeNavigation() {
               Наші рецепти
             </Link>
 
-            <a
+           {/* <a
               href="https://tavriav.zakaz.ua/ru/categories/pasta-tavriav/tm=golden-pasta/"
               target="_blank"
               rel="noopener noreferrer"
               className="rounded-full bg-[#F5B400] px-5 py-2 text-sm font-bold text-[#3B2F2F] shadow-lg transition hover:bg-white"
             >
               Купити продукцію
-            </a>
+            </a>*/}
           </div>
         </div>
       </div>
