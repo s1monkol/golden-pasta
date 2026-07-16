@@ -180,21 +180,23 @@ export default function ProductCatalog() {
                 </p>
 
                 <div className="mt-auto flex flex-wrap gap-3 pt-6">
-                  <a
-                    href={product.buyUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="group/buy inline-flex w-fit items-center gap-3 rounded-full bg-red-600 px-6 py-3 text-sm font-bold text-white shadow-lg transition-all duration-300 hover:scale-105 hover:bg-[#F5B400] hover:text-[#3B2F2F] hover:shadow-xl"
-                  >
-                    <Image
-                      src="/images/cart.svg"
-                      alt="Cart"
-                      width={20}
-                      height={20}
-                      className="transition-transform duration-300 group-hover/buy:rotate-[-8deg] group-hover/buy:scale-110"
-                    />
-                    Купити
-                  </a>
+/*
+<a
+  href={product.buyUrl}
+  target="_blank"
+  rel="noopener noreferrer"
+  className="group/buy inline-flex w-fit items-center gap-3 rounded-full bg-red-600 px-6 py-3 text-sm font-bold text-white shadow-lg transition-all duration-300 hover:scale-105 hover:bg-[#F5B400] hover:text-[#3B2F2F] hover:shadow-xl"
+>
+  <Image
+    src="/images/cart.svg"
+    alt="Cart"
+    width={20}
+    height={20}
+    className="transition-transform duration-300 group-hover/buy:rotate-[-8deg] group-hover/buy:scale-110"
+  />
+  Купити
+</a>
+*/
 
                   {product.recipeUrl && (
                     <Link
