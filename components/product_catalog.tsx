@@ -52,6 +52,17 @@ const products: Product[] = [
     "Одна з найпопулярніших форм пасти у світі. Чудово поєднується з томатними, сирними та вершковими соусами, роблячи кожну страву по-справжньому домашньою.",
 },
 
+  {
+    title: "Vermicelli / Вермішель",
+    weight: "400 г",
+    image: "/images/Packs/GoldenPasta_Vermicelli.png",
+    buyUrl:
+      "https://prom.ua/p1798074146-makaronny-golden-pasta.html",
+    recipeUrl: "/recipes/vermicelli",
+    description:
+      "Тонка та ніжна вермішель, яка швидко готується й чудово підходить для супів, гарнірів, запіканок та легких домашніх страв.",
+  },
+
 {
   title: "Linguine / Лінгвіні",
   weight: "400 г",
