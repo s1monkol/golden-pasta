@@ -180,7 +180,7 @@ export default function ProductCatalog() {
                 </p>
 
                 <div className="mt-auto flex flex-wrap gap-3 pt-6">
-/*
+{/*
 <a
   href={product.buyUrl}
   target="_blank"
@@ -196,7 +196,7 @@ export default function ProductCatalog() {
   />
   Купити
 </a>
-*/
+*/}
 
                   {product.recipeUrl && (
                     <Link
